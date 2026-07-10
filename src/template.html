@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="{{lang}}">
 <head>
   <meta charset="UTF-8" />
@@ -58,6 +58,159 @@
       </div>
     </div>
   </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>
+          <span class="hero-title-main">{{heroTitle}}</span>
+          <span class="hero-title-sub">Toyota MR-S 2000</span>
+        </h1>
+
+        <p class="hero-text">{{heroText}}</p>
+
+        <div class="hero-actions">
+          <a href="#donate" class="btn btn-primary hero-donate">{{heroDonateButton}}</a>
+          <a href="#story" class="btn btn-light heroStoryButton">{{heroStoryButton}}</a>
+          <a href="#gallery" class="btn btn-outline hero-gallery">{{heroGalleryButton}}</a>
+        </div>
+
+        <div class="hero-stats">
+          {{heroStatsHtml}}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <div class="pill">{{aboutPill}}</div>
+          <h2 class="section-title">{{aboutTitle}}</h2>
+          {{aboutTextHtml}}
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">{{specsTitle}}</h3>
+          <ul class="spec-list">
+            {{specsHtml}}
+          </ul>
+          <p class="card-note">{{specsNote}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="story">
+    <div class="container">
+      <div class="card story-card">
+        <div class="pill pill-dark">{{storyPill}}</div>
+        <h2 class="section-title">{{storyTitle}}</h2>
+        <p class="section-subtitle">{{storyText}}</p>
+
+        <div class="timeline">
+          {{timelineHtml}}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="mods">
+    <div class="container">
+      <div class="pill">{{modsPill}}</div>
+      <h2 class="section-title">{{modsTitle}}</h2>
+      <p class="section-subtitle">{{modsText}}</p>
+
+      <div class="mods-grid">
+        {{modsHtml}}
+      </div>
+    </div>
+  </section>
+
+  <section class="section donate-section" id="donate">
+    <div class="container">
+      <div class="donate-wrap">
+        <div class="donate-card">
+          <div class="pill pill-dark">{{donatePill}}</div>
+          <h2 class="section-title">{{donateTitle}}</h2>
+          {{donateTextHtml}}
+
+          <div class="progress-box">
+            <div class="progress-info">
+              <span>{{raisedLabel}}: {{donationRaisedFormatted}}</span>
+              <span>{{goalLabel}}: {{donationGoalFormatted}}</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: {{progressPercent}}%"></div>
+            </div>
+          </div>
+
+          <div class="donate-actions">
+            <a href="{{cloudtipsUrl}}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="{{donateCloudtipsLabel}}">{{donateCloudtipsText}}</a>
+            <a href="{{boostyUrl}}" target="_blank" rel="noopener noreferrer" class="btn btn-light" aria-label="{{donateBoostyLabel}}">{{donateBoostyText}}</a>
+          </div>
+
+          <p class="note">{{donateNote}}</p>
+        </div>
+
+        <div class="donate-card">
+          <h3 class="donate-card-title">{{costsTitle}}</h3>
+          <ul class="cost-list">
+            {{costsHtml}}
+          </ul>
+          <p class="donate-card-text">{{costsText}}</p>
+          <div class="last-update">
+            <strong>{{lastUpdateLabel}}</strong><br />
+            {{lastUpdate}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="pill">{{galleryPill}}</div>
+      <h2 class="section-title">{{galleryTitle}}</h2>
+      <p class="section-subtitle">{{galleryText}}</p>
+
+      <div class="gallery-grid">
+        {{galleryHtml}}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="pill">FAQ</div>
+      <h2 class="section-title">{{faqTitle}}</h2>
+
+      <div class="faq">
+        {{faqHtml}}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contacts">
+    <div class="container">
+      <div class="contact-card">
+        <div>
+          <h2>{{contactTitle}}</h2>
+          <p>{{contactText}}</p>
+        </div>
+
+        <div class="contact-actions">
+          <a href="{{telegramUrl}}" target="_blank" rel="noopener noreferrer" class="btn btn-dark" aria-label="{{telegramLabel}}">Telegram</a>
+        </div>
+      </div>
+
+      <div class="qr-sign">
+        <h3>{{qrTitle}}</h3>
+        <pre>{{qrText}}</pre>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <div class="container">
