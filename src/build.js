@@ -4,12 +4,12 @@ const path = require("path");
 const site = {
   baseUrl: "https://mrs.spb.ru",
   imageUrl: "https://mrs.spb.ru/images/hero.jpg",
-  donationRaised: 12000,
-  donationGoal: 65000,
+  donationRaised: 1000,
+  donationGoal: 120000,
   cloudtipsUrl: "https://pay.cloudtips.ru/p/311aaec7",
   boostyUrl: "https://boosty.to/mrsearcher/donate",
   telegramUrl: "https://t.me/MRSearcherS",
-  lastUpdate: "03.07.2026"
+  lastUpdate: "10.07.2026"
 };
 
 const pages = [

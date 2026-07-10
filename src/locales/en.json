@@ -88,10 +88,10 @@
   "donateNote": "A donation is voluntary personal support for the car project. It is not a purchase of goods or services.",
   "costsTitle": "What the money is for",
   "costs": [
-    ["New soft top", "45,000 ₽"],
-    ["Shipping / hardware / small parts", "5,000 ₽"],
+    ["New soft top", "80,000 ₽"],
+    ["Shipping / hardware / small parts", "25,000 ₽"],
     ["Installation", "15,000 ₽"],
-    ["Total", "65,000 ₽"]
+    ["Total", "120,000 ₽"]
   ],
   "costsText": "I will update the fundraising progress and show the result after the purchase.",
   "lastUpdateLabel": "Last update:",
