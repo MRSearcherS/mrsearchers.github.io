@@ -236,3 +236,44 @@ https://github.com/MRSearcherS/mrsearchers.github.io.git
 
 Следующий шаг: проверить реальные DNS-записи домена mrs.spb.ru командами Resolve-DnsName/nslookup.
 
+
+---
+
+## DNS / GitHub Pages status update
+
+Время фиксации: 2026-07-12 00:57:28 +03:00
+
+Проверено состояние домена mrs.spb.ru.
+
+Файл CNAME в репозитории содержит:
+
+    mrs.spb.ru
+
+DNS-зона mrs.spb.ru обслуживается:
+
+    ns1.reg.ru
+    ns2.reg.ru
+
+Для mrs.spb.ru настроены правильные A-записи GitHub Pages:
+
+    185.199.108.153
+    185.199.109.153
+    185.199.110.153
+    185.199.111.153
+
+AAAA-записей на момент проверки нет. Это допустимо: для GitHub Pages они желательны, но не обязательны.
+
+CNAME-записи в DNS для mrs.spb.ru нет. Это нормально, потому что mrs.spb.ru используется как отдельная DNS-зона/root-домен.
+
+DNSSEC Analyzer показывает отсутствие DS/DNSKEY/RRSIG для mrs.spb.ru. Это означает, что зона mrs.spb.ru не подписана DNSSEC. Для GitHub Pages и HTTPS это не является обязательной ошибкой.
+
+Git remote был обновлён на актуальный репозиторий:
+
+    https://github.com/MRSearcherS/mrsearchers.github.io.git
+
+Ранее remote указывал на старое имя репозитория:
+
+    https://github.com/MRSearcherS/zheltik.git
+
+Следующий шаг: если GitHub Pages продолжает показывать DNS Check in Progress, проверить CAA через nslookup и при необходимости удалить/снова добавить Custom domain в настройках GitHub Pages.
+

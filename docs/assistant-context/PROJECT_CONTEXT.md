@@ -316,3 +316,42 @@ MRSearcherS/zheltik
 
 https://github.com/MRSearcherS/mrsearchers.github.io.git
 
+
+---
+
+## Актуальное уточнение по репозиторию и DNS
+
+Дата фиксации: 2026-07-12 00:57:37 +03:00
+
+Актуальный репозиторий проекта:
+
+https://github.com/MRSearcherS/mrsearchers.github.io
+
+Актуальный git remote:
+
+https://github.com/MRSearcherS/mrsearchers.github.io.git
+
+Ранее репозиторий назывался или локальный remote указывал на:
+
+https://github.com/MRSearcherS/zheltik.git
+
+Домен:
+
+mrs.spb.ru
+
+DNS-зона обслуживается REG.RU:
+
+- ns1.reg.ru
+- ns2.reg.ru
+
+Для домена настроены A-записи GitHub Pages:
+
+- 185.199.108.153
+- 185.199.109.153
+- 185.199.110.153
+- 185.199.111.153
+
+Файл CNAME должен содержать только:
+
+mrs.spb.ru
+
