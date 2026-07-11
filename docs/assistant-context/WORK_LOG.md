@@ -219,3 +219,20 @@ MRSearcherS/zheltik
 
 https://github.com/MRSearcherS/mrsearchers.github.io.git
 
+
+---
+
+## DNS / HTTPS status check
+
+Время фиксации: 2026-07-12 00:52:28 +03:00
+
+Состояние на момент проверки:
+
+- GitHub Pages показывает: сайт опубликован по http://mrs.spb.ru/
+- Custom domain: mrs.spb.ru
+- Статус: DNS Check in Progress
+- Enforce HTTPS недоступен
+- Проблема продолжается больше суток
+
+Следующий шаг: проверить реальные DNS-записи домена mrs.spb.ru командами Resolve-DnsName/nslookup.
+
