@@ -119,3 +119,20 @@ https://mrs.spb.ru/
 
 Если есть сомнения — сначала показать вывод ассистенту.
 
+
+---
+
+## Уточнение по репозиторию
+
+Актуальный репозиторий проекта:
+
+https://github.com/MRSearcherS/mrsearchers.github.io
+
+Ранее репозиторий назывался:
+
+MRSearcherS/zheltik
+
+После переименования GitHub может продолжать принимать push через старый URL благодаря редиректу, но для ясности лучше использовать актуальный remote:
+
+https://github.com/MRSearcherS/mrsearchers.github.io.git
+
